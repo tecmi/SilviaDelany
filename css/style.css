@@ -1,0 +1,138 @@
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 100%;
+}
+#banner {
+	position: relative;
+}
+#banner video{
+	width: 100%;
+}	
+#banner div{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-40%);
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.embed-responsive-16by9 {
+	padding-bottom: 25.00%;
+}
+
+.contenedor{
+	text-align: center;
+	position: relative;
+    padding: 15% 0;
+    background-position: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 20px;
+}
+.servicios .flores{
+    background-image: url(../img/s1.JPG);
+}
+.servicios .decoraciones{
+    background-image: url(../img/s1.JPG);
+}
+.servicios .eventos{
+    background-image: url(../img/s1.JPG);
+}
+.servicios .ramos{
+    background-image: url(../img/s1.JPG);
+}
+.contenedor a{
+	text-decoration: none;
+}
+.contenedor .contenido:hover{
+	background: rgba(255,255,255,1);
+	color: #000;
+	cursor: pointer;
+}
+.contenedor .contenido{
+    padding: 7% 0;
+	background: rgba(255,255,255,0.7);
+}
+.contenedor .contenido .texto{
+	font-size: 25px;
+	color: #444;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+.navbar{
+	position: relative;
+	border-radius: 0px;
+	margin-top: 10px;
+	background: #fdf3fd;
+	color: #ff98cd;
+}
+.navbar .logo{
+	left: 4%;
+	position: absolute;
+	width: 80px;
+	height: auto;
+}
+.thumbnail{
+	text-align: center;
+	margin:20px;
+}
+.thumbnail .caption .form-control{
+	width: auto;
+	display: inline-block;
+}
+.thumbnail img{
+	height: 200px;
+}
+.thumbnail .color{
+	width: 100%;
+	height: 200px;
+}
+.thumbnail .color.c1{
+	background: #dca3c6;
+}
+.thumbnail .color.c2{
+	background: #202020;
+}
+.thumbnail .color.c3{
+	background: #006f9b;
+}
+.thumbnail .color.c4{
+	background: #801815;
+}
+body{
+	background-color: #feecff; 
+	display: block;
+	margin-top: -170px;
+		
+}
+section, summary {
+    display: block;
+    margin-top: 171px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    margin-top: 13px;
+}
+
+#colorboton
+{
+    color: #fff;
+    background-color: #de4459;
+    border-color: #ccc;
+    margin-top: 13px;
+}
+
+#subir
+{
+	display: block;
+	margin-top: -30px;
+}
+#graxie
+{
+	margin-right: 50%;
+}
